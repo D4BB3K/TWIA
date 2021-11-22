@@ -3,6 +3,7 @@ body
         min-width: 320px;
         -webkit-text-size-adjust: none;
         background: #f4f4f4;
+        font-family: Lato;
     }
 #container
     {
@@ -49,7 +50,7 @@ body
       
     .topnav a.active 
         {
-            background-color: #0026ff;
+            background-color: #276ac2;
             color: white;
         }
 #odstep
@@ -70,6 +71,6 @@ body
     {
         width:100%;
         height:7%;
-        background-color:green;
+        background-color:#3286f5;
         float: left;
     }	
