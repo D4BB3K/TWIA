@@ -72,5 +72,7 @@ body
         width:100%;
         height:7%;
         background-color:#3286f5;
+        color: #FFFF;
         float: left;
+        text-align: center;
     }	
