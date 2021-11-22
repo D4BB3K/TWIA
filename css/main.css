@@ -1,9 +1,14 @@
+body
+    {
+        min-width: 320px;
+        -webkit-text-size-adjust: none;
+        background: #f4f4f4;
+    }
 #container
     {
-        width:90%;
-        height:99%;
-        background-color:silver;
-        margin-left: 5%;
+        width:75%;
+        height:100%;
+        margin-left: 13%;
     }
 #logo
     {
@@ -13,23 +18,23 @@
     }
 #nav
     {
-        width:10%;
-        height:83%;
+        width:100%;
+        height:5%;
         background-color:orange;
+        float: left;
+    }
+#odstep
+    {
+        width:100%;
+        height:15%;
+        background-color:#f4f4f4;
         float: left;
     }
 #content
     {
-        width:80%;
-        height:83%;
-        background-color:yellow;
-        float: left;
-    }
-#ad
-    {
-        width:10%;
-        height:83%;
-        background-color:red;
+        width:100%;
+        height:100%;
+        background-color:#FFFF;
         float: left;
     }
 #footer
