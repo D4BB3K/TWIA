@@ -355,7 +355,7 @@ a.readmore_bt {
 }
 
 .loader img {
-     width: 280px;
+     max-width: 15%;
 }
 
 
