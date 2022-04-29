@@ -279,7 +279,7 @@ button {
      color: #114c7d;
      font-weight: 400;
      font-size: 28px;
-     background-image: url('../images/fevicon.png');
+     background-image: url('../img/fevicon.png');
      background-repeat: no-repeat;
      padding-left: 55px;
      letter-spacing: -0.5px;
@@ -438,7 +438,7 @@ a.readmore_bt {
 .header {
      font-family: poppins;
      padding: 10px 0px;
-     background: url(../images/hea.png);
+     background: url(../img/hea.png);
      background-repeat: no-repeat;
 background-size: 100% 100%;
 background-position: center center;
@@ -1352,19 +1352,19 @@ ul.top_icon li a {
 }
 .heroslider .slider-01 {
      width: 100%;
-     background-image: url(../images/slider-01.jpg);
+     background-image: url(../img/slider-01.jpg);
      background-size: cover;
      background-position: center;
 }
 .heroslider .slider-02 {
      width: 100%;
-     background-image: url(../images/slider-02.jpg);
+     background-image: url(../img/slider-02.jpg);
      background-size: cover;
      background-position: center;
 }
 .heroslider .slider-03 {
      width: 100%;
-     background-image: url(../images/slider-03.jpg);
+     background-image: url(../img/slider-03.jpg);
      background-size: cover;
      background-position: center;
 }
@@ -1704,7 +1704,7 @@ color: #fff;
 .about {
      padding-top: 90px ;
      padding-bottom: 84px ;
-     background: url(../images/aboutbg.jpg);
+     background: url(../img/aboutbg.jpg);
     background-position-x: 0%;
     background-position-y: 0%;
     background-repeat: repeat;
