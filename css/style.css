@@ -456,8 +456,8 @@ a.readmore_bt {
      padding: 10px 0px;
      background: url(../img/hea.png);
      background-repeat: no-repeat;
-background-size: 100% 100%;
-background-position: center center;
+     background-size: 100% 100%;
+     background-position: center center;
 }
 
 .logo {
@@ -1585,7 +1585,7 @@ input[type="radio"] .styled:checked+label::after {
 position: absolute;
 margin-bottom: -111px;
 z-index: 999;
-background: #ff0000;
+background: #FFDEAD;
 width: 100%;
 position: relative;}
 .location_icon_bottum::before {
@@ -1659,8 +1659,8 @@ border-radius: 30px;
 }
 
 .banner-main .carousel-caption .buynow:hover {
-     border: #ff0000 solid 1px;
-     background: #ff0000;
+     border: #FFDEAD solid 1px;
+     background: #FFDEAD;
      color: #fff;
 }
 
@@ -1710,8 +1710,8 @@ font-size: 18px;
 } 
 
 ul.social_icon li a:hover {
-     background: #ff0000;
-border: solid #ff0000 1px;        
+     background: #FFDEAD;
+border: solid #FFDEAD 1px;        
 color: #fff;
 }
 /** end banner **/
@@ -1792,7 +1792,7 @@ display: block
 }
 
 .clients_red {
-     background: #ff0000;
+     background: #FFDEAD;
      padding-top: 90px;
      padding-bottom:110px;
 } 
@@ -1854,7 +1854,7 @@ border-radius: 50px;
 /** brand **/
 .brand {
      padding-top: 60px;
-     border-top: #db0000 solid 6px;}
+     border-top: #FFDEAD solid 6px;}
 
 .brand-bg {
      background: #ebebeb;
@@ -1883,8 +1883,8 @@ border-radius: 50px;
      color: #131313;
      padding: 17px 0px 0px 0px;
 }
-.red {
-     color: #ff0000;
+.gold {
+     color: #FFDEAD;
 }
 
 .brand-bg .brand_box span {
@@ -1915,7 +1915,7 @@ margin-top: 40px
 }
 
 .read-more:hover {
-     background: #ff0000;
+     background: #FFDEAD;
 }
 
 /** end brand **/
@@ -1944,7 +1944,7 @@ margin-top: 40px
 } 
 
 .form-control {
-     border: #ff0000 solid 2px;
+     border: #FFDEAD solid 2px;
      border-radius: inherit;
      margin-bottom: 30px;
      padding: 13px 20px;
@@ -1952,12 +1952,12 @@ margin-top: 40px
 }
 .form-control:focus {
      box-shadow: inherit;
-     border: #ff0000 solid 2px !important;
+     border: #FFDEAD solid 2px !important;
 }
 
 .textarea {
      font-family: poppins;
-     border: #ff0000 solid 2px;
+     border: #FFDEAD solid 2px;
      margin-bottom: 30px;
      padding: 13px 20px;
      width: 100%;
@@ -1977,7 +1977,7 @@ margin-top: 40px
 }
 
 .send:hover {
-     background: #ff0000;
+     background: #FFDEAD;
 }
 
 
@@ -2031,7 +2031,7 @@ ul.link li a {
      
 }
 ul.link li a:hover {
-     color: #ff0000;
+     color: #FFDEAD;
 }
 
 ul.location_icon {
@@ -2066,8 +2066,8 @@ font-size: 18px;
 } 
 
 ul.location_icon li a:hover {
-     background: #ff0000;
-border: solid #ff0000 1px;        
+     background: #FFDEAD;
+border: solid #FFDEAD 1px;        
 color: #fff;
 }
 
@@ -2091,7 +2091,7 @@ ul.location_icon span {
      color: #000;
 }
 .copyright a:hover {
-     color: #ff0000;
+     color: #FFDEAD;
 }
 .btn-primary.focus,
 .btn-primary:focus {
@@ -2140,7 +2140,7 @@ ul.location_icon span {
 #myCarousel .carousel-control-next:hover,
 #myCarousel .carousel-control-prev:focus,
 #myCarousel .carousel-control-next:focus {
-     background: #ff0000 ;
+     background: #FFDEAD ;
      color: #fff;
 }
 
