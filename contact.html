@@ -94,41 +94,73 @@
     <!-- end header inner -->
 </header>
 <!-- end header -->
+
     <div class="brand_color">
         <div class="container">
             <div class="row">
                 <div class="col-md-12">
                     <div class="titlepage">
-                        <h2>Contact Us</h2>
+                        <h2>Kontakt</h2>
                     </div>
                 </div>
             </div>
         </div>
-
     </div>
-
+    <div class="container">
+        <div class="col-md-12">
+            <div class="info">
+                <h1>Biuro Obsługi Klienta</h1>
+                <strong>
+                    tel: +48 678 642 642<br>
+                    e-mail: kontakt@obrotomex.pl<br>
+                    godziny pracy: pn.-sb. 10:00-20:00, nd. 10:00-18:00
+                </strong>
+            </div>
+            <div class="info">
+                <h1>Dane kontaktowe</h1>
+                <strong>
+                    Centrala Obrotomex<br>
+                    1/9 Obi-Wana Kenobiego 87-162 Grabowiec, Polska<br>
+                    NIP: 111-222-33-44
+                </strong>
+            </div>
+        </div>
+        <div>
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d505.1972093993432!2d18.720371364659204!3d52.96395948628775!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x471cca13526b2af9%3A0xb6b24e4966338f96!2sObi-Wana%20Kenobiego%2C%2087-162%20Grabowiec!5e0!3m2!1spl!2spl!4v1651503477904!5m2!1spl!2spl"
+                frameborder="0" class="google-maps-contact" allowfullscreen="" data-aos="zoom-in">></iframe>
+        </div>
+    </div>
+    
     <!-- contact -->
     <div class="contact">
         <div class="container">
             <div class="row">
                 <div class="col-md-12">
-
+                    <div class="titlepage">
+                        <h2>Napisz do nas</h2>
+                    </div>
                     <form class="main_form">
                         <div class="row">
                             <div class="col-xl-6 col-lg-6 col-md-6 col-sm-6">
-                                <input class="form-control" placeholder="Your name" type="text" name="Your Name">
+                                <input class="form-control" required="required" placeholder="Imie" type="text" name="Name">
                             </div>
                             <div class="col-xl-6 col-lg-6 col-md-6 col-sm-6">
-                                <input class="form-control" placeholder="Email" type="text" name="Email">
+                                <input class="form-control" required="required" placeholder="Email" type="email" name="Email">
                             </div>
                             <div class=" col-md-12">
-                                <input class="form-control" placeholder="Phone" type="text" name="Phone">
+                                <input class="form-control" pattern="[0-9]{3}[0-9]{3}[0-9]{3}" placeholder="Telefon" type="tel" name="Phone">
                             </div>
                             <div class="col-md-12">
-                                <textarea class="textarea" placeholder="Message"></textarea>
+                                <textarea class="textarea" rows="4" maxlength="450" required="required" placeholder="Treść wiadomości"></textarea>
                             </div>
-                            <div class=" col-md-12">
-                                <button class="send">Send</button>
+                            <div class="col-md-12">
+                                <div><input type="checkbox" name="rule" required="required"> Akceptuję politykę prywatności i wykorzystywania danych w celu dalszego kontaktu.</div>
+                            </div>
+                            <div class="col-md-12">
+                                <div><input type="checkbox" name="newsletter"> Wyrażam zgodę na dostarczanie informacji i promocji od firmy.</div>
+                            </div><br><br>
+                            <div class="col-md-12">
+                                <button class="send">Wyślij</button>
                             </div>
                         </div>
                     </form>

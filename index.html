@@ -356,6 +356,7 @@
         </div>
     </div>
     <!-- end clients -->
+
     <!-- contact -->
     <div class="contact">
         <div class="container">
@@ -367,18 +368,24 @@
                     <form class="main_form">
                         <div class="row">
                             <div class="col-xl-6 col-lg-6 col-md-6 col-sm-6">
-                                <input class="form-control" placeholder="Imie" type="text" name="Your Name">
+                                <input class="form-control" required="required" placeholder="Imie" type="text" name="Name">
                             </div>
                             <div class="col-xl-6 col-lg-6 col-md-6 col-sm-6">
-                                <input class="form-control" placeholder="Email" type="text" name="Email">
+                                <input class="form-control" required="required" placeholder="Email" type="email" name="Email">
                             </div>
                             <div class=" col-md-12">
-                                <input class="form-control" placeholder="Telefon" type="text" name="Phone">
+                                <input class="form-control" pattern="[0-9]{3}[0-9]{3}[0-9]{3}" placeholder="Telefon" type="tel" name="Phone">
                             </div>
                             <div class="col-md-12">
-                                <textarea class="textarea" placeholder="Treść wiadomości"></textarea>
+                                <textarea class="textarea" rows="4" maxlength="450" required="required" placeholder="Treść wiadomości"></textarea>
                             </div>
-                            <div class=" col-md-12">
+                            <div class="col-md-12">
+                                <div><input type="checkbox" name="rule" required="required"> Akceptuję politykę prywatności i wykorzystywania danych w celu dalszego kontaktu.</div>
+                            </div>
+                            <div class="col-md-12">
+                                <div><input type="checkbox" name="newsletter"> Wyrażam zgodę na dostarczanie informacji i promocji od firmy.</div>
+                            </div><br><br>
+                            <div class="col-md-12">
                                 <button class="send">Wyślij</button>
                             </div>
                         </div>
