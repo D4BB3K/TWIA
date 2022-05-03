@@ -1866,7 +1866,6 @@ border-radius: 50px;
 /** brand **/
 .brand {
      padding-top: 60px;
-     border-top: #FFDEAD solid 6px;
 }
 
 .brand-bg {
@@ -2133,7 +2132,9 @@ ul.location_icon span {
 }
 
 /*--------------------------------------------------------------------- inner_page css ---------------------------------------------------------------------*/
-
+.line {
+     border-bottom: #FFDEAD solid 6px;
+}
 .brand_color {
      background-color: #ddd;
      border-bottom: #FFDEAD solid 6px;
