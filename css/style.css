@@ -1866,7 +1866,8 @@ border-radius: 50px;
 /** brand **/
 .brand {
      padding-top: 60px;
-     border-top: #FFDEAD solid 6px;}
+     border-top: #FFDEAD solid 6px;
+}
 
 .brand-bg {
      background: #ebebeb;
@@ -1933,6 +1934,11 @@ margin-top: 40px
 /** end brand **/
 
 /** contact **/
+//**.line {
+     padding-top: 60px;
+     border-top: #FFDEAD solid 6px;
+}**//
+
 .contact {
      background: #ffffff;
      padding: 90px 0px;
@@ -2135,6 +2141,8 @@ ul.location_icon span {
 
 .brand_color {
      background-color: #ddd;
+     padding-bottom: 60px;
+     border-bottom: #FFDEAD solid 6px;
 }
 .brand_color .titlepage {
      margin-top: 90px;
