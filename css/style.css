@@ -1730,25 +1730,37 @@ color: #fff;
 
 /** about **/
 .about {
-     padding-top: 90px ;
-     padding-bottom: 84px ;
+     padding-top: 90px;
+     padding-bottom: 84px;
      background: url(../img/aboutbg.jpg);
-    background-position-x: 0%;
-    background-position-y: 0%;
-    background-repeat: repeat;
-    background-size: auto;
-    background-repeat: no-repeat;
-    background-size: 100% 100%;
-    background-position: center center;
+     background-position-x: 0%;
+     background-position-y: 0%;
+     background-repeat: repeat;
+     background-size: auto;
+     background-repeat: no-repeat;
+     background-size: 100% 100%;
+     background-position: center center;
 }
 
 .about .about_img figure {
      margin: 0px;
+     margin-bottom: 50px;
+}
+
+.about_img img, iframe {
+     border-radius: 20px;
+     box-shadow: #ddd 0px 0px 19px 1px;
+}
+
+.about_img iframe {
+     margin-top: 105px;
+     margin-bottom: 105px;
 }
 
 .about .about_box {
      text-align: right;
-     padding-top: 130px;
+     padding-top: 50px;
+     margin-bottom: 50px;
 }
 
 .about .about_box h3 {
