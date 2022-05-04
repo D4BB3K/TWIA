@@ -1745,8 +1745,12 @@ color: #fff;
 .about .about_img figure {
      margin: 0px;
      margin-bottom: 50px;
-}
+     
+} 
 
+#about_img_index figure {
+     margin-top: 40px;
+}
 .about_img img, iframe {
      border-radius: 20px;
      box-shadow: #ddd 0px 0px 19px 1px;
