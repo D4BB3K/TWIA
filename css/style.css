@@ -1656,18 +1656,18 @@ input[type="radio"] .styled:checked+label::after {
 }
 
 .banner-main .carousel-caption .buynow  {
-text-transform: uppercase;
-border: #fff solid 1px;
-background: #fff;
-width: 196px;
-padding: 12px 0;
-display: inline-block;
-font-weight: 500;
-font-size: 17px;
-line-height: 30px;
-color: #FFDEAD;
-text-align: center;
-border-radius: 30px;
+     text-transform: uppercase;
+     border: #fff solid 1px;
+     background: #fff;
+     width: 196px;
+     padding: 12px 0;
+     display: inline-block;
+     font-weight: 500;
+     font-size: 17px;
+     line-height: 30px;
+     color: #FFDEAD;
+     text-align: center;
+     border-radius: 30px;
 }
 
 .banner-main .carousel-caption .buynow:hover {
